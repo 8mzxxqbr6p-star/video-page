@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Video</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#000;color:#fff;font-family:Arial,sans-serif}
+.wrap{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:65px;padding:20px}
+.player{width:100%;max-width:650px;aspect-ratio:16/9;background:#101010;position:relative;display:flex;align-items:center;justify-content:center}
+.play{font-size:55px;color:#fff;line-height:1}
+.controls{position:absolute;bottom:0;left:0;right:0;padding:15px 12px;background:linear-gradient(transparent,#000b);display:flex;align-items:center;gap:10px;font-size:12px;color:#ddd}
+.progress{height:3px;background:#aaa;flex:1}
+.sponsor{color:#fff;text-decoration:none;font-size:20px;font-weight:bold;letter-spacing:1px;text-align:center}
+.sponsor small{display:block;font-size:11px;font-weight:normal;color:#aaa;margin-top:7px;letter-spacing:0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="player">
+<div class="play">▶</div>
+<div class="controls"><span>00:00</span><div class="progress"></div><span>53:15</span><span>⛶</span></div>
+</div>
+<a class="sponsor" href="https://lite.tiktok.com/t/ZS9PdjKFJmx68-zukJ0/" rel="sponsored">SPONSOR<small>TikTok Lite</small></a>
+</div>
+</body>
+</html>
